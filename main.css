@@ -66,6 +66,7 @@ body {
 #product-description,
 #product-oldprice {
   color: var(--darkGrayishBlue);
+  line-height: 1.25rem;
 }
 
 #product-oldprice {
