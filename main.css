@@ -5,13 +5,14 @@
     visibility: visible !important;
     height: 36vh !important;
     border-radius: 10px 10px 0px 0px !important;
-    width:92vw !important;
+    width: 92vw !important;
     object-fit: cover;
   }
   .item-box {
     width: 92vw !important;
     height: 92vh !important;
-    flex-direction: column;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
   }
   #product-data {
     margin-top: 20px;
@@ -28,7 +29,8 @@
   }
   #buy {
     /*Work in progress */
-    visibility: hidden;
+    visibility: visible;
+    top:0px;
   }
 }
 
@@ -62,6 +64,7 @@ body {
   height: 450px;
   background-color: white;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 #product-data {
   display: flex;
@@ -88,7 +91,7 @@ body {
 
 #buy {
   background-color: var(--darkCyan);
-  width: 16.319vw;
+  width: 14.5rem;
   height: 50px;
   border-radius: 10px;
   border: none;
